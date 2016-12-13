@@ -22,4 +22,26 @@ Folder with some screenshots of the full project structure once all dependencies
 - CSS: bootstrap (bower)
 - NPM: bower, gulp, laravel-elixir
 
-### dependency installation
+### project installation
+** It is assumed that your dev computer has nodeJS installed as we will be using its build tools
+1. Clone the project
+2. npm install
+3. bower install
+4. composer install --prefer-dist
+5. gulp watch
+
+### your tasks
+- Back-end, implement the following:
+
+1.a. Profile page (/profile) where the user can update all their details including password
+1.b. Logout (/logout) destroys session and redirects to login
+1.c. Register (/register) creates a new user and logs them in (no need to login right after the account is created)
+
+- Front-end
+Bootstrap and Jquery are already added to the project, so use bootstrap to enhance the look and feel of:
+2.a. Login form
+2.b. Error message handling
+2.c. Jquery for form/input validation
+2.d. Extra bonus if you manage to add other front end dependencies (e.g. jquery-ui) through bower
+
+Good luck!
