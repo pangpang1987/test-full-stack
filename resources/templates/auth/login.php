@@ -17,4 +17,5 @@
     <div>
         <input type="submit" value="Login" />
     </div>
+    <p><a href="register">Register a new account</p>
 </form>
