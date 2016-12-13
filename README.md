@@ -32,16 +32,21 @@ It is assumed that your dev computer has nodeJS installed as we will be using it
 4. composer install --prefer-dist
 5. gulp watch
 
-### your tasks
-1. Back-end, implement the following:
-⋅⋅1. Profile page (/profile) where the user can update all their details including password
-⋅⋅2. Logout (/logout) destroys session and redirects to login
-⋅⋅3. Register (/register) creates a new user and logs them in (no need to login right after the account is created)
+### backend tasks
 
-2. Front-end. Bootstrap and Jquery are already added to the project, so use bootstrap to enhance the look and feel of:
-⋅⋅1. Login form
-⋅⋅2. Error message handling
-⋅⋅3. Jquery for form/input validation
-⋅⋅4. Extra bonus if you manage to add other front end dependencies (e.g. jquery-ui) through bower
+implement the following:
+
+1. Profile page (/profile) where the user can update all their details including password
+2. Logout (/logout) destroys session and redirects to login
+3. Register (/register) creates a new user and logs them in (no need to login right after the account is created)
+
+### frontend tasks
+
+Bootstrap and Jquery are already added to the project, so use bootstrap to enhance the look and feel of:
+
+1. Login form
+2. Error message handling
+3. Jquery for form/input validation
+4. Extra bonus if you manage to add other front end dependencies (e.g. jquery-ui) through bower
 
 Good luck!
