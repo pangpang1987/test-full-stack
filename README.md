@@ -32,15 +32,15 @@ It is assumed that your dev computer has nodeJS installed as we will be using it
 4. composer install --prefer-dist
 5. gulp watch
 
-### backend tasks
+## backend tasks
 
-implement the following:
+Implement the following:
 
 1. Profile page (/profile) where the user can update all their details including password
 2. Logout (/logout) destroys session and redirects to login
 3. Register (/register) creates a new user and logs them in (no need to login right after the account is created)
 
-### frontend tasks
+## frontend tasks
 
 Bootstrap and Jquery are already added to the project, so use bootstrap to enhance the look and feel of:
 
