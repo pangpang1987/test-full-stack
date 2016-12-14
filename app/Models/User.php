@@ -22,7 +22,8 @@ class User
 
     public function update(Data\User $user)
     {
-        //TODO: Implement update operation
+
+        DB::table('users')->insert(array(array('')));
     }
 
     public function login(Data\User $user)

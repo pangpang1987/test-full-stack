@@ -18,6 +18,9 @@ class UserController extends BaseController
     public function profile()
     {
         //TODO: implement please, this should support the update of firstName, lastName, email and password (make sure you hash it before saving it)
+        
+        $view = new Views\User\Profile;
+        return $view->render();
     }
 
     public function register()

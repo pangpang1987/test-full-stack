@@ -11,12 +11,14 @@ class Mysql
 
     public static function connect()
     {
+        debug_print_backtrace();
         if ( ! self::$connection )
         {
             self::$connection = new DB;
             self::$connection->addConnection([
                 'driver'    => 'mysql',
                 'host'      => Config::DB_HOST,
+                'port'      => Config::DB_PORT,
                 'database'  => Config::DB_NAME,
                 'username'  => Config::DB_USER,
                 'password'  => Config::DB_PASSWORD,
